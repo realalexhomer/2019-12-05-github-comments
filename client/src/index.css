@@ -5,9 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+
+.commentContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.comment {
+  position: relative;
+  width: 100%;
+}
+
+.commentTab {
+  position: absolute;
+  right: 100%;
+  top: 0;
+}
+
+.commentTabAvatar {
+  width: 50px;
 }
