@@ -1,0 +1,21 @@
+{
+  "name": "github-webhooks-interview",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:koaninc/github-webhooks-interview.git",
+  "author": "Ashwin Bhat <ashwin@koan.co>",
+  "license": "MIT",
+  "dependencies": {
+    "@keyv/sqlite": "^2.0.1",
+    "express": "^4.17.1",
+    "keyv": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2",
+    "prettier": "^1.18.2"
+  },
+  "scripts": {
+    "prettier": "prettier --write '**/*.js'",
+    "start": "nodemon index.js"
+  }
+}
